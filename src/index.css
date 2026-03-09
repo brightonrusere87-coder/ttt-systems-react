@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ttt-red: #E31E24;
+  --color-ttt-black: #111111;
+  --color-ttt-dark: #1A1A1A;
+  --color-ttt-grey: #6B7280;
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #1A1A1A;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #6B7280;
+    border-radius: 4px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #E31E24;
+  }
+}
